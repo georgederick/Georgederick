@@ -79,8 +79,7 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=georgederick&show_icons=true&bg_color=121212&border_color=2a2a2a&title_color=ffffff&icon_color=7C83FF&text_color=d4d4d4&ring_color=7C83FF" alt="GitHub Stats" />
-<img height="170" src="https://streak-stats.demolab.com?user=georgederick&background=121212&border=2a2a2a&stroke=2a2a2a&ring=7C83FF&fire=7C83FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7C83FF&sideLabels=9a9a9a&dates=9a9a9a" alt="GitHub Streak" />
+<img height="300" src="https://streak-stats.demolab.com?user=georgederick&background=121212&border=2a2a2a&stroke=2a2a2a&ring=7C83FF&fire=7C83FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7C83FF&sideLabels=9a9a9a&dates=9a9a9a" alt="GitHub Streak" />
 
 </div>
 
