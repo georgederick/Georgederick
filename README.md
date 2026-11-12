@@ -83,6 +83,39 @@
 <img height="170" src="https://streak-stats.demolab.com?user=georgederick&background=121212&border=2a2a2a&stroke=2a2a2a&ring=7C83FF&fire=7C83FF&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=7C83FF&sideLabels=9a9a9a&dates=9a9a9a" alt="GitHub Streak" />
 
 </div>
+name: generate pacman contribution graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # atualiza a cada 12 horas
+  workflow_dispatch:          # permite rodar manualmente
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Push SVGs to the output branch
+        run: |
+          cd dist
+          git init -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "chore: update pacman contribution graph"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git push -f origin output
 
 <!-- Se quiser manter o seu Pac-Man de contribuições, cole o bloco dele aqui -->
 
