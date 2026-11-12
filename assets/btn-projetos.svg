@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="150.0" height="66" viewBox="0 0 150.0 66" fill="none" role="img">
+<defs>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#fff"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="28 28" dur="8s" repeatCount="indefinite"/></pattern><linearGradient id="fab1" gradientTransform="rotate(25 .5 .5)"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/><stop offset=".41" stop-color="#fff" stop-opacity=".035"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="fab2" gradientTransform="rotate(-30 .5 .5)"><stop offset=".2" stop-color="#fff" stop-opacity="0"/><stop offset=".21" stop-color="#fff" stop-opacity=".025"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="acg" x1="0" x2="1"><stop offset="0" stop-color="#7C83FF"/><stop offset="1" stop-color="#7C83FF" stop-opacity="0"/></linearGradient><linearGradient id="pbar" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#7C83FF"/></linearGradient><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#7C83FF" stop-opacity="0"/><stop offset=".5" stop-color="#7C83FF"/><stop offset="1" stop-color="#7C83FF" stop-opacity="0"/></linearGradient><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect x="4" y="12" width="142.0" height="46" rx="2" fill="#7C83FF" opacity="0" filter="url(#gl)"><animate attributeName="opacity" values=".0;.45;.0" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="4" y="6" width="142.0" height="46" rx="2" fill="#fff"/>
+
+<text x="24.0" y="34.0" font-family="Poppins,'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="600" fill="#000" textLength="102" lengthAdjust="spacingAndGlyphs" letter-spacing=".4">VER PROJETOS</text>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="430.0" height="92" viewBox="0 0 430.0 92" fill="none" role="img">
+<defs>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.5" fill="#fff"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="28 28" dur="8s" repeatCount="indefinite"/></pattern><linearGradient id="fab1" gradientTransform="rotate(25 .5 .5)"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/><stop offset=".41" stop-color="#fff" stop-opacity=".035"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="fab2" gradientTransform="rotate(-30 .5 .5)"><stop offset=".2" stop-color="#fff" stop-opacity="0"/><stop offset=".21" stop-color="#fff" stop-opacity=".025"/><stop offset=".4" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="acg" x1="0" x2="1"><stop offset="0" stop-color="#7C83FF"/><stop offset="1" stop-color="#7C83FF" stop-opacity="0"/></linearGradient><linearGradient id="pbar" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#7C83FF"/></linearGradient><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#7C83FF" stop-opacity="0"/><stop offset=".5" stop-color="#7C83FF"/><stop offset="1" stop-color="#7C83FF" stop-opacity="0"/></linearGradient><filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+<clipPath id="s1"><rect x="0" y="0" width="430.0" height="92" rx="6"/></clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="429.0" height="91" rx="6" fill="#121212" stroke="#2a2a2a"/><g clip-path="url(#s1)"><rect y="0" width="140" height="1.6" fill="url(#sw)"><animate attributeName="x" from="-140" to="430.0" dur="5s" begin="-1.8s" repeatCount="indefinite"/></rect></g>
+<g transform="translate(24.0,34.0) scale(1.000)" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g>
+<text x="68.0" y="38.0" font-family="'Open Sans','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" font-weight="400" fill="#9a9a9a">Localização</text>
+<text x="68.0" y="62.0" font-family="'Open Sans','Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="400" fill="#fff">São Paulo – SP, Brasil</text>
+
+</svg>
